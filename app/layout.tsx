@@ -12,6 +12,9 @@ const ibmPlexSharif = IBM_Plex_Serif({
 export const metadata: Metadata = {
   title: "Cyanide",
   description: "Cyanide is a modren banking plartform for everyone.",
+  icons: {
+    icon: "/icons/logo.svg",
+  },
 };
 
 export default function RootLayout({
@@ -21,7 +24,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${inter.variable}, ${ibmPlexSharif.variable}`}>
+        {children}
+      </body>
     </html>
   );
 }
