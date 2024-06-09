@@ -11,7 +11,7 @@ const ibmPlexSharif = IBM_Plex_Serif({
 
 export const metadata: Metadata = {
   title: "Cyanide",
-  description: "Cyanide is a modren banking plartform for everyone.",
+  description: "Cyanide is a modern banking plartform for everyone.",
   icons: {
     icon: "/icons/logo.svg",
   },
